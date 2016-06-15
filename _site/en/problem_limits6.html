@@ -94,7 +94,7 @@
 				
 				
 					
-					<a href="/es/problem_limits1.html"><img src="/images/es.svg" height="40" width="40"></a>
+					<a href="/es/problem_limits6.html"><img src="/images/es.svg" height="40" width="40"></a>
 				
 			
 		
@@ -103,7 +103,7 @@
 				
 				
 					
-					<a href="/en/problem_limits1.html"><img src="/images/en.svg" height="40" width="40"></a>
+					<a href="/en/problem_limits6.html"><img src="/images/en.svg" height="40" width="40"></a>
 				
 			
 		
@@ -121,32 +121,37 @@
 
 
 
+	
+	
+	<a href="/en/problem_limits5.html"><img src="/images/previous.svg" style="position: fixed; left: 30px; top: 50%; width: 40px; height: 40px;"></a>	
 
-	
-	
-	<a href="/en/problem_limits2.html"><img src="/images/next.svg" style="position: fixed; right: 30px; top: 50%; width: 40px; height: 40px;"></a>	
 
 
 
 <div style="position: relative; height: 90px;" align="center">
 <img src="/images/symb/problem.svg" height="60" width="60" style="vertical-align:middle">
 <span style="font-size:32px;vertical-align:middle;">
-		Limits. Problem 1</span>
+		Limits. Problem 6</span>
 </div>
 
 <div class="postbox pb_problem">
 	<div>
 Compute the limit: <br /><br />
 
-$\displaystyle\lim_{x\longrightarrow 3} \dfrac{x^2-x+12}{x+3}$<br /><br />
-
+$\displaystyle\lim_{x\longrightarrow\infty}\left(\dfrac{2x + 7}{2x - 6}\right)^\sqrt{4x^2+x-3}$<br /><br />
+ 
 <div class="bcblue boxdissap">
 Solution
 </div><br />
-
+ 
 <div class="dissap">
-The limit does not have indeterminate form. Therefore, for $x$, we take the value $3$. <br /><br />
-$\displaystyle\lim_{x\longrightarrow 3} \dfrac{x^2-x+12}{x+3} = \dfrac{3^2-3+12}{3+3} = \dfrac{18}{6} = 3$<br /><br />
+The limit is of indeterminate form $1^\infty$<br /><br />
+In order to solve this limit, it is necessary to follow the steps of indeterminate form $1^\infty$. We will reach the following expression: <br /><br />
+$\displaystyle e^{\lim_{x\longrightarrow\infty}[(Base -1)·Exponent]}$<br /><br />
+Where the base is $\dfrac{2x + 7}{2x - 6}$ and the exponent is $\sqrt{4x^2+x-3}$<br /><br />
+  
+Therefore: the limit would be: $\displaystyle e^{\lim_{x\longrightarrow\infty}\left[\left(\dfrac{2x + 7}{2x - 6} - 1\right)·\sqrt{4x^2+x-3}\right]} = e^{\lim_{x\longrightarrow\infty}\left[\left(\dfrac{13}{2x - 6}\right)·\sqrt{4x^2+x-3}\right]}= e^{13} $<br /><br />
+Notice that the limit of $\dfrac{\sqrt{4x^2+x-3}}{2x - 6}  = 1$ because $\sqrt{4x^2}  = 2x $ (we can ignore $x-3$ and $-6$ because when $x$ tends to infinity, they will be zero).<br /><br />
 </div>
 </div>
 
